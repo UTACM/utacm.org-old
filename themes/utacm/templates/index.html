@@ -1,39 +1,45 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% if articles %}
-  {% for article in (articles_page.object_list if articles_page else articles) %}
-    <article>
-      <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-      <i>{{ article.locale_date }}, {{ article.author }}</i>
-      <hr />
-      {{ article.content }}
-    </article>
-  {% endfor %}
-{% endif %}
+<div style="float: right;">
+  <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=450&ampkst=1&amp;bgcolor=%23FFFFFF&amp;src=utexasacm%40gmail.com&amp;color=%23182C57&amp;ctz=America%2FChicago" style=" border-width:0 " width="300" height="450" frameborder="0" scrolling="no"></iframe>
+</div>
 
-{% if articles_page and articles_paginator.num_pages > 1 %}
-  <ul class="pagination">
-    {% if articles_page.has_previous() %}
-      {% set num = articles_page.previous_page_number() %}
-      <li class="prev">
-        <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">&laquo;</a>
-      </li>
-    {% else %}
-      <li class="prev disabled"><a href="#">&laquo;</a></li>
-    {% endif %}
-    {% for num in range( 1, 1 + articles_paginator.num_pages ) %}
-      <li class="{{ 'active' if num == articles_page.number else '' }}">
-        <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">{{ num }}</a>
-      </li>
+<div>
+  {% if articles %}
+    {% for article in (articles_page.object_list if articles_page else articles) %}
+      <article>
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+        <i>{{ article.locale_date }}, {{ article.author }}</i>
+        <hr />
+        {{ article.content }}
+      </article>
     {% endfor %}
-    {% if articles_page.has_next() %}
-      <li class="next">
-        <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">&raquo;</a>
-      </li>
-    {% else %}
-      <li class="next disabled"><a href="#">&laquo;</a></li>
-    {% endif %}
-  </ul>
-{% endif %}
+  {% endif %}
+
+  {% if articles_page and articles_paginator.num_pages > 1 %}
+    <ul class="pagination">
+      {% if articles_page.has_previous() %}
+        {% set num = articles_page.previous_page_number() %}
+        <li class="prev">
+          <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">&laquo;</a>
+        </li>
+      {% else %}
+        <li class="prev disabled"><a href="#">&laquo;</a></li>
+      {% endif %}
+      {% for num in range( 1, 1 + articles_paginator.num_pages ) %}
+        <li class="{{ 'active' if num == articles_page.number else '' }}">
+          <a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">{{ num }}</a>
+        </li>
+      {% endfor %}
+      {% if articles_page.has_next() %}
+        <li class="next">
+          <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">&raquo;</a>
+        </li>
+      {% else %}
+        <li class="next disabled"><a href="#">&laquo;</a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</div>
 {% endblock content %}
