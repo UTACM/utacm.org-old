@@ -40,12 +40,14 @@
 {% endmacro %}
 
 {% macro menu() %}
-  <div class="container">
-    <div style="float: left; margin: 10px;">
+  <div id="banner" class="container">
+    <div style="float: left; width: 75px; margin: 10px 10px 20px;">
       <img src="{{ SITEURL }}/theme/images/acm_logo.png" height="75" width="75">
     </div>
-    <h3>{{ SITENAME }}</h3>
-    <h4>{{ TAGLINE }}</h4>
+    <div>
+      <h3>{{ SITENAME }}</h3>
+      <h4>{{ TAGLINE }}</h4>
+    </div>
   </div>
 
   <div class="container">
