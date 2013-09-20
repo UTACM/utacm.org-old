@@ -90,6 +90,9 @@ digitalocean: publish
 	sudo chown -R www:www /var/www/utacm.org
 	sudo chmod -R ug+rw /var/www/utacm.org
 
+dreamhost: publish
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/ utacm@utacm.org:/home/utacm/utacm.org --cvs-exclude
+
 utcs: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/ ting@sloth.cs.utexas.edu:/u/www/users/utacm --cvs-exclude
 
