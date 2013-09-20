@@ -22,7 +22,7 @@ events.
 - President: Emily Tarrant
 - VP Academics: Emily Hart
 - VP Financial: Chris Sheahan
-- VP Internal:
+- VP Internal: David Munoz
 - VP HR: Devin Sandhu
 - VP Social: Kim Phung Tran
 
