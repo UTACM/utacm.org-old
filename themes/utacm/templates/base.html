@@ -28,7 +28,7 @@
 
 {% macro menu_item(name=None, url, page=None, icon=None, glyph=None) %}
   {% if page %}
-    {% set url = SITEURL + page + '.html' %}
+    {% set url = SITEURL + '/pages/' + page + '.html' %}
   {% endif %}
 
   <li>
@@ -42,7 +42,7 @@
 
 {% macro menu() %}
   <div class="container">
-    <a href="{{ SITEURL }}"><h3>{{ SITENAME }}</h3></a>
+    <h3>{{ SITENAME }}</h3>
     <h4>{{ TAGLINE }}</h4>
 
     <div class="navbar navbar-default">
@@ -56,6 +56,7 @@
 
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
+          {{ menu_item(name='Home', url=SITEURL) }}
           {{ menu_item(name='About Us', page='about-us') }}
           {{ menu_item(name='Contact', page='contact') }}
           {{ menu_item(name='Join', page='join') }}
