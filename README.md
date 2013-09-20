@@ -3,6 +3,9 @@
 Contributions are more than welcome. Feel free to fork the [repo and submit pull
 requests](https://help.github.com/articles/using-pull-requests).
 
+To add a blog post or edit one of the pages, please check the `content/` folder.
+All files are written in [Markdown][md] format.
+
 ## Building Site Locally
 
 Here are the steps to building the site locally:
@@ -40,3 +43,4 @@ Here are the steps to building the site locally:
 If you have any questions check the [documentation][doc] or open up an issue.
 
 [doc]: http://docs.getpelican.com/en/3.2/index.html
+[md]: https://daringfireball.net/projects/markdown/basics
