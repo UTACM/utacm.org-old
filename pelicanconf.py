@@ -9,7 +9,9 @@ SITEURL = ''
 
 TIMEZONE = 'America/Chicago'
 
+DEFAULT_CATEGORY = u'general'
 DEFAULT_LANG = u'en'
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -35,3 +37,5 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+STATIC_PATHS = ['images']
