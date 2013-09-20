@@ -85,4 +85,9 @@ github: publish
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
+digitalocean: publish
+	sudo rsync -avxlhCEP --del $(OUTPUTDIR)/ /var/www/utacm.org
+	sudo chown -R www:www /var/www/utacm.org
+	sudo chmod -R ug+rw /var/www/utacm.org
+
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload github
