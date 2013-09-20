@@ -36,3 +36,7 @@ Here are the steps to building the site locally:
 6. to stop the development server
 
         ./develop_server.sh stop
+
+If you have any questions check the [documentation][doc] or open up an issue.
+
+[doc]: http://docs.getpelican.com/en/3.2/index.html
