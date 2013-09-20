@@ -90,4 +90,7 @@ digitalocean: publish
 	sudo chown -R www:www /var/www/utacm.org
 	sudo chmod -R ug+rw /var/www/utacm.org
 
+utcs: publish
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/ ting@sloth.cs.utexas.edu:/u/www/users/utacm --cvs-exclude
+
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload github
