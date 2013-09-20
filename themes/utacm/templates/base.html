@@ -10,7 +10,6 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css"/>
     <link href="{{ SITEURL }}/theme/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ SITEURL }}/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
     <script src="http://code.jquery.com/jquery.js"></script>
@@ -42,9 +41,14 @@
 
 {% macro menu() %}
   <div class="container">
+    <div style="float: left; margin: 10px;">
+      <img src="{{ SITEURL }}/theme/images/acm_logo.png" height="75" width="75">
+    </div>
     <h3>{{ SITENAME }}</h3>
     <h4>{{ TAGLINE }}</h4>
+  </div>
 
+  <div class="container">
     <div class="navbar navbar-default">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

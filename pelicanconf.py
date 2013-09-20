@@ -25,3 +25,4 @@ RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'pdfs']
 THEME = 'themes/utacm'
+FILES_TO_COPY = [('images/favicon.ico', 'favicon.ico')]
