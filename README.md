@@ -36,7 +36,8 @@ manually add the page link to the navigation bar.
 
 ## Building Site Locally
 
-Here are the steps to building the site locally:
+Building the site locally is unnecessary unless you are in charge of deploying
+the site to production or want to work on the theme. Here are the steps:
 
 1. clone this repo
 
