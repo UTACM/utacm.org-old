@@ -39,3 +39,4 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'pdfs']
+THEME = 'themes/utacm'
