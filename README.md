@@ -46,7 +46,7 @@ the site to production or want to work on the theme. Here are the steps:
 
 2. install `virtualenvwrapper`
 
-        sudo pip install -g virtualenvwrapper
+        sudo pip install virtualenvwrapper
 
     Add the requisite hooks to your `.bashrc`.
 
