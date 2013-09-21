@@ -67,10 +67,12 @@ the site to production or want to work on the theme. Here are the steps:
 
         ./develop_server.sh stop
 
-If you have any questions check the [documentation][doc] or open up an issue.
+If you have any questions check the [documentation][pelican_doc] or open up an
+issue. Templates are written using [Jinja2][jj].
 
-[doc]: http://docs.getpelican.com/en/3.2/index.html
+[jj]: http://jinja.pocoo.org/docs/
 [md]: https://daringfireball.net/projects/markdown/basics
+[pelican_doc]: http://docs.getpelican.com/en/3.2/index.html
 [pr]: https://help.github.com/articles/using-pull-requests
 [vw_ins]:
 http://virtualenvwrapper.readthedocs.org/en/latest/install.html#shell-startup-file
