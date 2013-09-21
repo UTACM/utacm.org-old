@@ -44,7 +44,7 @@
 {% macro menu() %}
   <div id="banner" class="container">
     <div style="float: left; width: 75px; margin: 10px 10px 20px;">
-      <img src="{{ SITEURL }}/theme/images/acm_logo.png" height="75" width="75">
+      <a href="{{ SITEURL }}"><img src="{{ SITEURL }}/theme/images/acm_logo.png" height="75" width="75"></a>
     </div>
     <div>
       <h3>{{ SITENAME }}</h3>
@@ -65,11 +65,11 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           {% for title, link in MENUITEMS %}
-            {{ menu_item(name=title, url=link) }}
+            <li><a href="{{ link }}">{{ title }}</a></li>
           {% endfor %}
           {% if DISPLAY_PAGES_ON_MENU %}
             {% for page in PAGES %}
-              {{ menu_item(name=page.title, url=page.url) }}
+              <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
             {% endfor %}
           {% endif %}
           {% if DISPLAY_CATEGORIES_ON_MENU %}
