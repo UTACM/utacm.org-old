@@ -31,9 +31,6 @@ to the website shortly.
 Do the same thing as a blog post except create the file in `content/pages/`
 folder.
 
-At the moment you need to modify `themes/utacm/utacm/templates/base.html` to
-manually add the page link to the navigation bar.
-
 ## Building Site Locally
 
 Building the site locally is unnecessary unless you are in charge of deploying
