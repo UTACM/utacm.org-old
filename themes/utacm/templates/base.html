@@ -13,6 +13,7 @@
     <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
 
     {% if FEED_ALL_ATOM %}
       <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed"/>
@@ -75,6 +76,9 @@
           {{ menu_item(url='https://www.facebook.com/groups/utexas.acm/', icon='facebook-sign') }}
           {{ menu_item(url='https://github.com/UTACM', icon='github-alt') }}
           {{ menu_item(url='https://twitter.com/utacm', icon='twitter-sign') }}
+          <li>
+            <a href="#" onclick="cornify_add();return false;"><i class="icon-heart icon-large"></i></a>
+          </li>
         </ul>
       </div>
     </div>
