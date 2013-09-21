@@ -31,9 +31,6 @@ to the website shortly.
 Do the same thing as a blog post except create the file in `content/pages/`
 folder.
 
-At the moment you need to modify `themes/utacm/utacm/templates/base.html` to
-manually add the page link to the navigation bar.
-
 ## Building Site Locally
 
 Building the site locally is unnecessary unless you are in charge of deploying
@@ -46,9 +43,10 @@ the site to production or want to work on the theme. Here are the steps:
 
 2. install `virtualenvwrapper`
 
-        sudo pip install -g virtualenvwrapper
+        pip install --user virtualenvwrapper
 
-    Add the requisite hooks to your `.bashrc`.
+    Add the requisite hooks to your `.bashrc` by following these
+    [instructions][vw_ins].
 
 3. create a virtualenv for this project
 
@@ -69,8 +67,12 @@ the site to production or want to work on the theme. Here are the steps:
 
         ./develop_server.sh stop
 
-If you have any questions check the [documentation][doc] or open up an issue.
+If you have any questions check the [documentation][pelican_doc] or open up an
+issue. Templates are written using [Jinja2][jj].
 
-[doc]: http://docs.getpelican.com/en/3.2/index.html
+[jj]: http://jinja.pocoo.org/docs/
 [md]: https://daringfireball.net/projects/markdown/basics
+[pelican_doc]: http://docs.getpelican.com/en/3.2/index.html
 [pr]: https://help.github.com/articles/using-pull-requests
+[vw_ins]:
+http://virtualenvwrapper.readthedocs.org/en/latest/install.html#shell-startup-file

@@ -11,7 +11,10 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_CATEGORY = u'general'
 DEFAULT_LANG = u'en'
+DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
+
+MENUITEMS = [('Home', SITEURL)]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -24,5 +27,5 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'pdfs']
-THEME = 'themes/utacm'
+THEME = 'theme'
 FILES_TO_COPY = [('images/favicon.ico', 'favicon.ico')]
