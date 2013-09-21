@@ -24,5 +24,5 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'pdfs']
-THEME = 'themes/utacm'
+THEME = 'theme'
 FILES_TO_COPY = [('images/favicon.ico', 'favicon.ico')]
