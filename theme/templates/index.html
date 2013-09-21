@@ -6,7 +6,7 @@
     {% if articles %}
       {% for article in (articles_page.object_list if articles_page else articles) %}
         <article>
-          <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+          <h2>{{ article.title }}</a></h2>
           <i>{{ article.locale_date }}, {{ article.author }}</i>
           <hr />
           {{ article.content }}

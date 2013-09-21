@@ -4,7 +4,7 @@ Category: hr
 
 ## How do I become a member?
 
-The fastest way you can join ACM is to stop at our office ans speak to an
+The fastest way you can join ACM is to stop at our office and speak to an
 officer. Our office is in [GDC 3.304][gdc] near the third floor lab (the room
 with the ACM logo on the window).
 
