@@ -28,9 +28,15 @@
 {% macro menu_item(name=None, url, icon=None, glyph=None) %}
   <li>
     <a href="{{ url }}">
-      {% if icon %}<i class="icon-{{ icon }} icon-large"></i>{% endif %}
-      {% if glyph %}<span class="glyphicon glyphicon-{{ glyph }}"></span>{% endif %}
-      {% if name %}{{ name }}{% endif %}
+      {% if icon %}
+        <i class="icon-{{ icon }} icon-large"></i>
+      {% endif %}
+      {% if glyph %}
+        <span class="glyphicon glyphicon-{{ glyph }}"></span>
+      {% endif %}
+      {% if name %}
+        {{ name }}
+      {% endif %}
     </a>
   </li>
 {% endmacro %}
@@ -78,7 +84,7 @@
         <ul class="nav navbar-nav navbar-right">
           {{ menu_item(name='Archives', url=SITEURL + '/archives.html') }}
           {{ menu_item(url='https://www.facebook.com/groups/utexas.acm/', icon='facebook-sign') }}
-          {{ menu_item(url='https://github.com/UTACM', icon='github-alt') }}
+          {{ menu_item(url='https://github.com/UTACM/utacm.org', icon='github-alt') }}
           {{ menu_item(url='https://twitter.com/utacm', icon='twitter-sign') }}
           <li>
             <a href="#" onclick="cornify_add();return false;"><i class="icon-heart icon-large"></i></a>
