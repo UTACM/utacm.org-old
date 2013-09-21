@@ -25,11 +25,7 @@
   </head>
 {% endmacro %}
 
-{% macro menu_item(name=None, url, page=None, icon=None, glyph=None) %}
-  {% if page %}
-    {% set url = SITEURL + '/pages/' + page + '.html' %}
-  {% endif %}
-
+{% macro menu_item(name=None, url, icon=None, glyph=None) %}
   <li>
     <a href="{{ url }}">
       {% if icon %}<i class="icon-{{ icon }} icon-large"></i>{% endif %}
@@ -67,7 +63,7 @@
           {% endfor %}
           {% if DISPLAY_PAGES_ON_MENU %}
             {% for page in PAGES %}
-              {{ menu_item(name=page.title, page=page.url) }}
+              {{ menu_item(name=page.title, url=page.url) }}
             {% endfor %}
           {% endif %}
           {% if DISPLAY_CATEGORIES_ON_MENU %}
