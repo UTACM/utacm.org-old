@@ -21,11 +21,11 @@ events.
 
 - President: Emily Tarrant
 - VP Academics: Emily Hart
-- VP Financial: Chris Sheahan
-- VP Internal: David Munoz
-- VP HR: Devin Sandhu
-- VP Social: Kim Phung Tran
 - VP Corporate: David Coon
+- VP Financial: Chris Sheahan
+- VP Human Resources: Devin Sandhu
+- VP Internal: David Munoz
+- VP Social: Kim Phung Tran
 
 To reach out to the senior officer group, send an
 <a href="http://www.google.com/recaptcha/mailhide/d?k=01nSTSDdRoasei9yq9TRrF2w==&amp;c=HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc="
