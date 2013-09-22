@@ -25,6 +25,7 @@ events.
 - VP Internal: David Munoz
 - VP HR: Devin Sandhu
 - VP Social: Kim Phung Tran
+- VP Corporate: David Coon
 
 To reach out to the senior officer group, send an
 <a href="http://www.google.com/recaptcha/mailhide/d?k=01nSTSDdRoasei9yq9TRrF2w==&amp;c=HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc="
