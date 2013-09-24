@@ -25,7 +25,7 @@ events.
 - VP Financial: Chris Sheahan
 - VP Human Resources: Devin Sandhu
 - VP Internal: David Munoz
-- VP Social: Kim Phung Tran
+- VP Social: Kim Tran
 
 To reach out to the senior officer group, send an
 <a href="http://www.google.com/recaptcha/mailhide/d?k=01nSTSDdRoasei9yq9TRrF2w==&amp;c=HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc="
