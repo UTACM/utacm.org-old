@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="row">
-  <div class="col-xs-8">
+  <div class="col-md-8">
     {% if articles %}
       {% for article in (articles_page.object_list if articles_page else articles) %}
         <article>
@@ -40,7 +40,7 @@
     {% endif %}
   </div>
 
-  <div class="col-xs-4">
+  <div class="col-md-4">
     <div>
       <h4>
         Drop by <a href="https://www.utexas.edu/maps/main/buildings/gdc.html">GDC 3.304</a> anytime!
