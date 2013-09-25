@@ -37,11 +37,6 @@ Pushing to this repo will not automatically deploy it to production servers.
 Either manually deploy the site, or submit a PR to notify repo watchers and
 someone should with take care of it.
 
-### Developing or Deploying
-
-If you wish to edit the theme or deploy the website, check out the [wiki][wiki]
-for more instructions.
-
 ### Additional Documentation
 
 Please check out the [wiki][wiki] for more info on how to deploy the site,
