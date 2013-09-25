@@ -18,61 +18,35 @@ Within the text file, fill in some basic metadata:
     Category: social
     Tags: lan, party
     Slug: fall-lan-party
-    Author: Kim Phung Tran
+    Author: Kim Tran
     Summary: Start the new year with a LAN Party!
 
     Welcome back from your (hopefully) great summer! And ...
-
-Afterwards submit a [pull request][pr] and someone will comment or merge it in
-to the website shortly.
 
 #### Adding A Static Page
 
 Do the same thing as a blog post except create the file in `content/pages/`
 folder.
 
-## Building Site Locally
+### Submit a Pull Request
 
-Building the site locally is unnecessary unless you are in charge of deploying
-the site to production or want to work on the theme. Here are the steps:
+Afterwards submit a [pull request][pr] and someone will comment or merge it in
+to the website shortly.
 
-1. clone this repo
+Pushing to this repo will not automatically deploy it to production servers.
+Either manually deploy the site, or submit a PR to notify repo watchers and
+someone should with take care of it.
 
-        git clone https://github.com/UTACM/utacm.org.git
-        cd utacm.org
+### Developing or Deploying
 
-2. install `virtualenvwrapper`
+If you wish to edit the theme or deploy the website, check out the [wiki][wiki]
+for more instructions.
 
-        pip install --user virtualenvwrapper
+### Additional Documentation
 
-    Add the requisite hooks to your `.bashrc` by following these
-    [instructions][vw_ins].
+Please check out the [wiki][wiki] for more info on how to deploy the site,
+modify theme, etc.
 
-3. create a virtualenv for this project
-
-        mkvirtualenv utacm
-        workon utacm
-
-4. install the required Python modules
-
-        pip install -r requirements.txt
-
-5. start development server
-
-        make devserver
-
-    You can now visit the site at [http://localhost:8000](http://localhost:8000).
-
-6. to stop the development server
-
-        ./develop_server.sh stop
-
-If you have any questions check the [documentation][pelican_doc] or open up an
-issue. Templates are written using [Jinja2][jj].
-
-[jj]: http://jinja.pocoo.org/docs/
 [md]: https://daringfireball.net/projects/markdown/basics
-[pelican_doc]: http://docs.getpelican.com/en/3.2/index.html
 [pr]: https://help.github.com/articles/using-pull-requests
-[vw_ins]:
-http://virtualenvwrapper.readthedocs.org/en/latest/install.html#shell-startup-file
+[wiki]: https://github.com/UTACM/utacm.org/wiki
