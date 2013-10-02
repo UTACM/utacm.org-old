@@ -3,11 +3,7 @@ Date: 2013-09-20
 
 ## Email
 
-To contact all the senior officers, please
-<a href="http://www.google.com/recaptcha/mailhide/d?k=01nSTSDdRoasei9yq9TRrF2w==&amp;c=HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc="
-onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501nSTSDdRoasei9yq9TRrF2w\75\75\46c\75HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc\075',
-'', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300');
-return false;" title="Reveal this e-mail address">email us</a>.
+To contact all the senior officers, please [email us][so-email].
 
 ## Location
 
@@ -23,3 +19,4 @@ href="https://www.google.com/maps?sll=30.3077609,-97.75340140000002&amp;sspn=0.9
 style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 [gdc]: https://www.google.com/maps/preview#!q=Bill+and+Melinda+Gates+Computer+Science+Complex%2C+Austin%2C+TX&data=!4m10!1m9!4m8!1m3!1d210116!2d-97.7534014!3d30.3077609!3m2!1i1194!2i732!4f13.1
+[so-email]: http://www.google.com/recaptcha/mailhide/d?k=01Dqaa_p-qJ8k_-vpWV4yXxQ==&c=JT3_zdT7OBENXGwqApakk4JiRH1iSvIWwuR_VeNte3A=

@@ -27,11 +27,7 @@ events.
 - VP Internal: David Munoz
 - VP Social: Kim Tran
 
-To reach out to the senior officer group, send an
-<a href="http://www.google.com/recaptcha/mailhide/d?k=01nSTSDdRoasei9yq9TRrF2w==&amp;c=HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc="
-onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501nSTSDdRoasei9yq9TRrF2w\75\75\46c\75HyzCkW9991-A87glm9uxZhIs5J2ZRCKzQHnU4JXYffc\075',
-'', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300');
-return false;" title="Reveal this e-mail address">email</a>!
+To reach out to the senior officer group, send an [email][so-email].
 
 ## I want your rules!
 
@@ -39,3 +35,4 @@ Great! Check out our [bylaws][bylaws].
 
 [acm]: http://www.acm.org/
 [bylaws]: http://www.utacm.org/static/pdfs/bylaws.pdf
+[so-email]: http://www.google.com/recaptcha/mailhide/d?k=01Dqaa_p-qJ8k_-vpWV4yXxQ==&c=JT3_zdT7OBENXGwqApakk4JiRH1iSvIWwuR_VeNte3A=
